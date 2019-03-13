@@ -136,6 +136,7 @@ go build .<br>
 到 /go/src/golang-elk下<br>
 go build .<br>
 ./main<br>
+登录localhost:5601就可以看到kibana里的数据<br>
  
 项目概述:<br>
 golang语言实现的ELK,目前我司使用docker部署项目,微服务较多,查看日志文件就需要去服务器里tail或者docker logs ..等等噼里啪啦
