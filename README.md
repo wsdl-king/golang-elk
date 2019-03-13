@@ -21,21 +21,21 @@ logtransfer ---- 日志收集服务端,实现功能为:读取kafka日志,发送�
 
 
 <h3>在你所在的GOPATH进行go get操作,提取必要的包<h3>
-### 依赖的package
-######日志
+### 依赖的package<br>
+######日志<br>
 go get github.com/astaxie/beego/logs<br>
-######conig加载配置文件
+######conig加载配置文件<br>
 go get github.com/pythonsite/config<br>
-######etcd-client(v3)
+######etcd-client(v3)<br>
 go get go.etcd.io/etcd/clientv3<br>
-######kafka-client
+######kafka-client<br>
 go get github.com/Shopify/sarama<br>
-######实时读取文件的tail
+######实时读取文件的tail<br>
 github.com/hpcloud/tail<br>
-######elasticSearch客户端 ps:前几天开源了官方的go-elasticSearch,有兴趣的小伙伴可以试一下.
+######elasticSearch客户端 ps:前几天开源了官方的go-elasticSearch,有兴趣的小伙伴可以试一下.<br>
 gopkg.in/olivere/elastic.v2<br>
 
-###使用docker进行服务安装
+###使用docker进行服务安装<br>
 我的用户目录是/homg/qiwenshuai<br>
 我的IP是192.168.88.152<br>
 ----
